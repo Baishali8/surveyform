@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="" id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="text" id="email" placeholder="Enter Your Email">
+        </div>
+
+        <div class="form-control">
+            <label for="number" id="label-number">Contact Number</label>
+            <input type="text" inputmode="numeric" id="number" placeholder="Enter Your Number">
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="text" id="age" placeholder="Enter Your Age">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">What are You?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Why are You Here?</label>
+            <label for="opt1">
+                <input type="radio" id="opt1" name="opt">Learn</input>
+            </label>
+            <label for="opt2">
+                <input type="radio" id="opt2" name="opt">Practice</input>
+            </label>
+            <label for="opt3">
+                <input type="radio" id="opt3" name="opt">Prepare</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Languages and Frameworks Comfortable With</label>
+            <label for="inp1">
+                <input type="checkbox" name="inp">C</input>
+            </label>
+            <label for="inp2">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="inp3">
+                <input type="checkbox" name="inp">Java</input>
+            </label>
+            <label for="inp4">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+            <label for="inp5">
+                <input type="checkbox" name="inp">PHP</input>
+            </label>
+            <label for="inp6">
+                <input type="checkbox" name="inp">JavaScript</input>
+            </label>
+            <label for="inp7">
+                <input type="checkbox" name="inp">C#</input>
+            </label>
+            <label for="inp8">
+                <input type="checkbox" name="inp">Swift</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">Any Comment Or Suggestion</label>
+            <textarea name="comment" id="comment" placeholder="Enter Your Comments Here"></textarea>
+        </div>
+
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
